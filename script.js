@@ -41,11 +41,5 @@ form.addEventListener('submit', (e) => {
 function isValidEmail(email) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
-function openPopup() {
-  document.getElementById("popup").style.display = "block";
-}
 
-function closePopup() {
-  document.getElementById("popup").style.display = "none";
-}
 
