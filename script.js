@@ -41,3 +41,7 @@ form.addEventListener('submit', (e) => {
 function isValidEmail(email) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
+function animateBox() {
+  var box = document.querySelector(".box");
+  box.classList.add("move");
+}
